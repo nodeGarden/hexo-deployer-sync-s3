@@ -1,6 +1,6 @@
 {
-  "name": "hexo-deployer-s3",
-  "version": "0.0.3",
+  "name": "hexo-deployer-sync-s3",
+  "version": "0.0.1",
   "description": "AWS S3 deployer plugin for Hexo",
   "main": "index",
   "keywords": [
@@ -9,21 +9,23 @@
     "aws",
     "deployer"
   ],
-  "author": "Josh Strange",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/joshstrange/hexo-deployer-s3.git"
+  "author": {
+    "name": "Armando Rosario"
   },
   "license": {
     "type": "MIT"
+  },
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/nodeGarden/hexo-deployer-sync-s3"
+  },
+  "bugs": {
+    "url": "https://github.com/nodeGarden/hexo-deployer-sync-s3/issues"
   },
   "engines": {
     "hexo": ">= 1.0.0"
   },
   "dependencies": {
-    "readdirp": "^0.3.3",
-    "s3sync": "0.0.3",
-    "level": "^0.18.0",
-    "s3-sync": "^0.5.1"
+    "s3": "*"
   }
 }
