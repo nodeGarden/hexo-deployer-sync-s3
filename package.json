@@ -26,6 +26,6 @@
     "hexo": ">= 1.0.0"
   },
   "dependencies": {
-    "s3": "*"
+    "s3": "git+https://github.com/andrewrk/node-s3-client.git"
   }
 }
