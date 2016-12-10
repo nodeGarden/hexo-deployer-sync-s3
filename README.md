@@ -34,7 +34,7 @@ deploy:
   region: <region>  // Optional, see https://github.com/LearnBoost/knox#region
 
 #also set in your #Directory section:
-  full_path: <full local path>
+  full_path: <full local path> // Full path to the project public directory not including the word "public" at the end
 
 ```
 
